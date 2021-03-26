@@ -37,8 +37,8 @@ h6 {
 }
 /* HEADER */
 .container {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
@@ -71,10 +71,10 @@ h6 {
 }
 .navigation,
 .adds {
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  padding: 0;
   outline: 1px solid tomato;
 }
 .logo {
@@ -132,15 +132,25 @@ h6 {
 .dummy-bg {
   background-color: var(--dummy-bg-color);
 }
+.hero {
+  text-align: center;
+}
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.hero .button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 0 solid transparent;
 }
 .button {
   color: var(--primary-white-color);
