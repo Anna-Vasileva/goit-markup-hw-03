@@ -295,6 +295,7 @@ p {
 /* FOOTER */
 .basement {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .basement .adds-item:not(:last-child) {
   display: block;
