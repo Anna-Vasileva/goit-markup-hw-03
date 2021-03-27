@@ -7,6 +7,7 @@
   --accent-color-text: rgba(255, 255, 255, 0.6);
   --button-grey-color: #f5f4fa;
   --dummy-bg-color: #2f303a;
+  --border-header: #ececec;
 }
 /*цвет основного текста --> color: #757575; */
 /*цвет вторичного текста --> color: #212121; */
@@ -57,7 +58,11 @@ p {
   padding-bottom: 94px;
 }
 /* HEADER */
-
+.page-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-header);
+}
 .accent {
   color: var(--accent-color);
 }
