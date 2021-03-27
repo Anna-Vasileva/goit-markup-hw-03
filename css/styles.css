@@ -7,7 +7,7 @@
   --accent-color-text: rgba(255, 255, 255, 0.6);
   --button-grey-color: #f5f4fa;
   --dummy-bg-color: #2f303a;
-  --border-header: #ececec;
+  --border-color: #ececec;
 }
 /*цвет основного текста --> color: #757575; */
 /*цвет вторичного текста --> color: #212121; */
@@ -61,7 +61,7 @@ p {
 .page-header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: var(--border-header);
+  border-bottom-color: var(--border-color);
 }
 .accent {
   color: var(--accent-color);
@@ -376,18 +376,32 @@ p {
   margin-left: -30px;
   margin-top: -30px;
 }
-.portfolio .portfolio-title {
-  padding: 20px 24px;
-}
-.portfolio img {
-  display: block;
-  max-width: 100%;
-}
-.portfolio .portfolio-item {
+.portfolio-list > .portfolio-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  /* outline: 1px solid tomato; */
 }
+.portfolio .portfolio-title {
+  padding: 20px 24px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-color: var(--border-color);
+  border-left-color: var(--border-color);
+  border-right-color: var(--border-color);
+  /* outline: 1px solid tomato; */
+}
+
+.portfolio img {
+  display: block;
+  max-width: 100%;
+  /* outline: 1px solid tomato; */
+}
+
 .description {
   color: var(--primary-text-color);
 
