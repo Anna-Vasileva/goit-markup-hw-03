@@ -52,7 +52,9 @@ p {
 
   outline: 1px solid tomato;
 }
-
+.section {
+  padding-top: 94px;
+}
 /* HEADER */
 
 .accent {
@@ -136,15 +138,17 @@ p {
   background-color: var(--dummy-bg-color);
 }
 /*Временное решение для наглядности на макете*/
-.hero.dummy-bg {
+/* .hero.dummy-bg {
   height: 600px;
   padding-top: 200px;
-}
+} */
 
 /* HERO */
 
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-bottom: 30px;
@@ -185,8 +189,8 @@ p {
 /* QUALITY */
 .quality .quality-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 .quality-list .item {
   outline: 1px solid tomato;
@@ -232,33 +236,74 @@ p {
 }
 .work .work-pic {
   display: block;
+  max-width: 100%;
 }
 /* WORK */
 
 /* TEAM */
 .team {
   background-color: var(--button-grey-color);
+  padding-bottom: 94px;
+}
+.team .team-pic {
+  margin-bottom: 30px;
+  display: block;
+  max-width: 100%;
+  outline: 1px solid tomato;
+}
+.team .team-list {
+  outline: 1px solid tomato;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.team-list > .item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  border-bottom-right-radius: 14%;
+  border-bottom-left-radius: 14%;
+
+  background-color: tomato;
 }
 .team .team-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
+  outline: 1px solid tomato;
 }
 .team .team-people {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 .team-post {
+  padding-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 /* /TEAM */
 /* /MAIN */
 
 /* FOOTER */
-
+.basement {
+  padding-top: 60px;
+}
+.basement .adds-item:not(:last-child) {
+  display: block;
+  margin-bottom: 9px;
+}
 .basement-adds-value {
   color: var(--primary-white-color);
   font-style: normal;
@@ -267,8 +312,10 @@ p {
   color: var(--accent-color-text);
   font-style: normal;
 }
-.basement > .logo {
+.basement .logo {
   color: var(--primary-white-color);
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 .basement-adds .link:hover,
 .basement-adds .link:focus {
