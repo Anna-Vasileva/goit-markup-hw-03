@@ -50,7 +50,7 @@ p {
   padding-right: 15px;
   width: 1200px;
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .section {
   padding-top: 94px;
@@ -71,7 +71,7 @@ p {
   line-height: 1.19;
 }
 .navigation .link {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 
   color: var(--secondary-color-text);
 
@@ -81,11 +81,11 @@ p {
 }
 .navigation,
 .adds {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .logo {
   display: block;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .navigation .link,
 .adds .link {
@@ -109,7 +109,7 @@ p {
   margin-right: 50px;
 }
 .adds .link {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   color: inherit;
 
   font-weight: 500;
@@ -138,11 +138,6 @@ p {
 .dummy-bg {
   background-color: var(--dummy-bg-color);
 }
-/*Временное решение для наглядности на макете*/
-/* .hero.dummy-bg {
-  height: 600px;
-  padding-top: 200px;
-} */
 
 /* HERO */
 
@@ -190,11 +185,9 @@ p {
 /* QUALITY */
 .quality .quality-list {
   display: flex;
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
 .quality-list .item {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .quality-list .item:not(:last-child) {
   margin-right: 30px;
@@ -252,10 +245,10 @@ p {
   margin-bottom: 30px;
   display: block;
   max-width: 100%;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .team .team-list {
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 
   display: flex;
   flex-wrap: wrap;
@@ -269,7 +262,7 @@ p {
   border-bottom-right-radius: 14%;
   border-bottom-left-radius: 14%;
 
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 .team .team-title {
   margin-bottom: 50px;
@@ -279,7 +272,7 @@ p {
   line-height: 1.17;
   text-align: center;
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 .team .team-people {
   margin-bottom: 10px;
