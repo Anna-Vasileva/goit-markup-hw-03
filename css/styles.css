@@ -15,6 +15,8 @@
 /*акцентный цвет текста color: rgba(255, 255, 255, 0.6); */
 
 body {
+  margin: 0;
+
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
@@ -28,14 +30,19 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
 .list {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
-/* HEADER */
+.link {
+  text-decoration: none;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -45,6 +52,9 @@ h6 {
 
   outline: 1px solid tomato;
 }
+
+/* HEADER */
+
 .accent {
   color: var(--accent-color);
 }
@@ -57,9 +67,6 @@ h6 {
   font-size: 26px;
   line-height: 1.19;
 }
-.link {
-  text-decoration: none;
-}
 .navigation .link {
   outline: 1px solid tomato;
 
@@ -71,10 +78,6 @@ h6 {
 }
 .navigation,
 .adds {
-  margin: 0;
-  margin: 0;
-  padding: 0;
-  padding: 0;
   outline: 1px solid tomato;
 }
 .logo {
@@ -132,6 +135,14 @@ h6 {
 .dummy-bg {
   background-color: var(--dummy-bg-color);
 }
+/*Временное решение для наглядности на макете*/
+.hero.dummy-bg {
+  height: 600px;
+  padding-top: 200px;
+}
+
+/* HERO */
+
 .hero {
   text-align: center;
 }
@@ -168,6 +179,10 @@ h6 {
 .button:hover {
   background-color: #188ce8;
 }
+
+/* /HERO */
+
+/* QUALITY */
 .title-style {
   color: var(--secondary-color-text);
 }
@@ -177,12 +192,18 @@ h6 {
   line-height: 1.14;
   text-transform: uppercase;
 }
+/* /QUALITY */
+
+/* WORK */
 .work .title-style {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
+/* WORK */
+
+/* TEAM */
 .team {
   background-color: var(--button-grey-color);
 }
@@ -201,6 +222,7 @@ h6 {
   font-size: 16px;
   line-height: 1.19;
 }
+/* /TEAM */
 /* /MAIN */
 
 /* FOOTER */
