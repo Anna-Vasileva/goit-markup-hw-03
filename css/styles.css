@@ -193,6 +193,7 @@ p {
 }
 .quality-list .item {
   /* outline: 1px solid tomato; */
+  width: 270px;
 }
 .quality-list .item:not(:last-child) {
   margin-right: 30px;
@@ -266,6 +267,7 @@ p {
   margin-top: 30px;
   border-bottom-right-radius: 14%;
   border-bottom-left-radius: 14%;
+  background-color: var(--primary-white-color);
 
   /* background-color: tomato; */
 }
@@ -337,7 +339,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio .filter-item:not(:last-child) {
   margin-right: 8px;
